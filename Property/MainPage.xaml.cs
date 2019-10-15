@@ -8,8 +8,6 @@ using Xamarin.Forms;
 
 namespace Property
 {
-    // Learn more about making custom code visible in the Xamarin.Forms previewer
-    // by visiting https://aka.ms/xamarinforms-previewer
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
@@ -17,5 +15,18 @@ namespace Property
         {
             InitializeComponent();
         }
+
+        private void HomePage_Clicked(object sender, EventArgs eventArgs)
+        {
+            //this.Frame.Navigate(typeof(AboutPage), null);
+        }
     }
+
+    //public static class SharedResources
+    //{
+    //    public static Color AppBackgroundColor
+    //    {
+    //        get { return Color.AliceBlue; }
+    //    }
+    //}
 }

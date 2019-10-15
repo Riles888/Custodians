@@ -13,4 +13,12 @@
     <PackageReference Include="Xamarin.Forms" Version="4.1.0.555618" />
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="MainPage %28copy%29.xaml.cs" />
+    <Compile Remove="MainPage %28another copy%29.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="MainPage %28copy%29.xaml" />
+    <EmbeddedResource Remove="MainPage %28another copy%29.xaml" />
+  </ItemGroup>
 </Project>

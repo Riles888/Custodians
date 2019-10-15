@@ -6,11 +6,19 @@
              mc:Ignorable="d"
              x:Class="Property.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to the Custodians of Oxford!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <StackLayout Padding="20,20,20,20" BackgroundColor="AliceBlue">
+        <BoxView Color="Black" WidthRequest="50" HeightRequest="50"
+                 RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0.5,
+                             Constant=-100}"
+                 RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=0.5,
+                             Constant=-100}" />
 
+        <Label Text="Welcome to the Custodians of Oxford!" FontFamily="Montserrat" FontSize="Title" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        <Image WidthRequest="100" Source="https://images.app.goo.gl/UaGqHpgCQCgQh9pq9" />
+        <Button x:Name="homePage" VerticalOptions="End" Text="Continue" FontAttributes="Bold" CornerRadius="8" Clicked="HomePage_Clicked" />
+    </StackLayout>
 </ContentPage>
