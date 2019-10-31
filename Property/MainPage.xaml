@@ -6,8 +6,8 @@
              mc:Ignorable="d"
              x:Class="Property.MainPage">
 
-    <StackLayout Padding="20,20,20,20" BackgroundColor="AliceBlue">
-        <BoxView Color="Black" WidthRequest="50" HeightRequest="50"
+    <StackLayout Padding="0,0,0,10" BackgroundColor="Black">
+        <!--<BoxView Color="White" WidthRequest="50" HeightRequest="50"
                  RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,
                              Property=Width,
                              Factor=0.5,
@@ -15,10 +15,15 @@
                  RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
                              Property=Height,
                              Factor=0.5,
-                             Constant=-100}" />
-
-        <Label Text="Welcome to the Custodians of Oxford!" FontFamily="Montserrat" FontSize="Title" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
-        <Image WidthRequest="100" Source="https://images.app.goo.gl/UaGqHpgCQCgQh9pq9" />
-        <Button x:Name="homePage" VerticalOptions="End" Text="Continue" FontAttributes="Bold" CornerRadius="8" Clicked="HomePage_Clicked" />
+                             Constant=-100}" />-->
+        
+        <Label Text="The Custodians of Oxford!" FontFamily="Montserrat" FontSize="Title" HorizontalTextAlignment="Center"
+               TextColor="White" VerticalTextAlignment="Center"/>
+        <Button x:Name="loginPage" VerticalOptions="End" Text="Sign Up" FontAttributes="Bold"
+                TextColor="White" CornerRadius="8" Clicked="SignUp_Clicked" />
+        <Button x:Name="signupPage" VerticalOptions="End" Text="Log In" FontAttributes="Bold"
+                TextColor="White" CornerRadius="8" Clicked="Login_Clicked" />
+        <Button x:Name="aboutPage" VerticalOptions="End" Text="About" FontAttributes="Bold"
+                TextColor="White" CornerRadius="8" Clicked="AboutPage_Clicked" />
     </StackLayout>
 </ContentPage>

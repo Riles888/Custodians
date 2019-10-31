@@ -16,8 +16,19 @@ namespace Property
             InitializeComponent();
         }
 
-        private void HomePage_Clicked(object sender, EventArgs eventArgs)
+        private void SignUp_Clicked(object sender, EventArgs eventArgs)
         {
+            Navigation.PushAsync(new signupPage());
+            //this.Frame.Navigate(typeof(AboutPage), null);
+        }
+        private void Login_Clicked(object sender, EventArgs eventArgs)
+        {
+            Navigation.PushAsync(new loginPage());
+            //this.Frame.Navigate(typeof(AboutPage), null);
+        }
+        private void AboutPage_Clicked(object sender, EventArgs eventArgs)
+        {
+            Navigation.PushAsync(new aboutPage());
             //this.Frame.Navigate(typeof(AboutPage), null);
         }
     }

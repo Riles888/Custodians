@@ -8,9 +8,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Property", "Property\Property.csproj", "{351E0B49-FDD6-4585-897C-4419E5BD7DBC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E5D1E413-1A7A-4045-985C-34CB131F2163}"
-	ProjectSection(SolutionItems) = preProject
-		aboutPage.cshtml = aboutPage.cshtml
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
