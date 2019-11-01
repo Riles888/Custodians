@@ -1,15 +1,28 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             x:Class="Property.servicesPage">
 
-    <ContentPage Title="Cleaning">
+    <ContentPage Title="Cleaning" BackgroundColor="Black">
         <StackLayout>
-            
+            <ScrollView>
+                <ListView BackgroundColor="Black">
+                    <ListView.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Weekly Services</x:String>
+                            <x:String>Cleaning Services</x:String>
+                            <x:String>Party Services</x:String>
+                            <x:String>Car Services</x:String>
+                            <x:String>Yard Services</x:String>
+                        </x:Array>
+                    </ListView.ItemsSource>
+                </ListView>
+            </ScrollView>
+            <Button Text="Select Service" Clicked="Calendar_Clicked" HorizontalOptions="End" VerticalOptions="End" BackgroundColor="Black" TextColor="Gray"/>
         </StackLayout>
     </ContentPage>
     
-    <ContentPage Title="Events">
+    <ContentPage Title="Events" BackgroundColor="Black">
         <StackLayout>
             
         </StackLayout>

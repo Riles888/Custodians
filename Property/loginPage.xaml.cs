@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 using Xamarin.Forms;
@@ -14,6 +14,10 @@ namespace Property
         private void Settings_Clicked(object sender, EventArgs eventArgs)
         {
             Navigation.PushAsync(new settingsPage());
+        }
+        private void OnLoginButtonClicked(object sender, EventArgs eventArgs)
+        {
+            Navigation.PushAsync(new servicesPage());
         }
     }
 }

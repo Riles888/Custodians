@@ -1,18 +1,23 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Property.loginPage"
              Title="Log-In Page">
     <ContentPage.Content>
-        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-            <Label Text="Username" />
-			    <Entry x:Name="usernameEntry" Placeholder="username" />
-			<Label Text="Password" />
-			    <Entry x:Name="passwordEntry" IsPassword="true" />
-			<Button Text="Login" /> <!-- Clicked="OnLoginButtonClicked" /> -->
-			    <Label x:Name="messageLabel" />
+        <StackLayout BackgroundColor="Black">
 
-            <!-- add the settings button to this page. already impletmented the code in CS -->
+            <!--Settings button-->
+           
+            <Button Text="Settings" Clicked="Settings_Clicked"  TextColor="White" HorizontalOptions="End" VerticalOptions="Start" FontSize="Micro" Padding="0, 0, 0, 0"/>
+           
+
+            <Label Text="Username" TextColor="Gray"/>
+			    <Entry x:Name="usernameEntry" Placeholder="username" TextColor="Gray"/>
+			<Label Text="Password" TextColor="Gray"/>
+			    <Entry x:Name="passwordEntry" Placeholder="password" TextColor="Gray" IsPassword="true" />
+            <!--OnLoginButtonClicked goes straight inside app right now-->
+			<Button Text="Login" Clicked="OnLoginButtonClicked" />
+			    <Label x:Name="messageLabel" />
 
         </StackLayout>
     </ContentPage.Content>

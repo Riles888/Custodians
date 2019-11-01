@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Title="Settings Page"
              x:Class="Property.settingsPage">
     <ContentPage.Content>
-        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-            <Label Text="Settings Page - add buttons"></Label>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Black">
+            <Label Text="Settings Page - add buttons" TextColor="Gray"/>
 
         </StackLayout>
     </ContentPage.Content>
