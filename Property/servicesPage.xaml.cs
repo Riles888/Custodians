@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +16,6 @@ namespace Property
         {
             InitializeComponent();
         }
-
         private void Calendar_Clicked(object sender, EventArgs eventArgs)
         {
             Navigation.PushAsync(new calendarPage());
