@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Property.signupPage"
+             Title="Sign-Up Page">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="Please sign up with either your Facebook or Google account"></Label>
+
+            <!-- add the settings button to this page. already impletmented the code in CS -->
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

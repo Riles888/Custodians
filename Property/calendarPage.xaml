@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Property.calendarPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black" >
+            <Label Text="Enter a date for your service:" TextColor="Gray" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+            <DatePicker x:Name="serviceDate" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" TextColor="Gray"/>
+
+            <Label Text="Enter a time for your service:" TextColor="Gray" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+            <TimePicker x:Name="serviceTime" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" TextColor="Gray"/>
+
+            <Button Text="Continue to Payment" Clicked="OnPaymentButtonClicked" HorizontalOptions="End" VerticalOptions="End" BackgroundColor="Black" TextColor="Gray"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
