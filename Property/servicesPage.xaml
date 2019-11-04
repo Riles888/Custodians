@@ -6,14 +6,13 @@
     <ContentPage Title="Cleaning" BackgroundColor="Black">
         <StackLayout>
             <ScrollView>
-                <ListView BackgroundColor="Black">
+                <ListView BackgroundColor="White">
                     <ListView.ItemsSource>
                         <x:Array Type="{x:Type x:String}">
-                            <x:String>Weekly Services</x:String>
-                            <x:String>Cleaning Services</x:String>
-                            <x:String>Party Services</x:String>
-                            <x:String>Car Services</x:String>
-                            <x:String>Yard Services</x:String>
+                            <x:String>Cleaning Homes/Apartments</x:String>
+                            <x:String>Cleaning Outdoors</x:String>
+                            <x:String>Move-out Cleaning</x:String>
+                            <x:String>Last Minute Cleaning</x:String>
                         </x:Array>
                     </ListView.ItemsSource>
                 </ListView>
@@ -24,7 +23,24 @@
     
     <ContentPage Title="Events" BackgroundColor="Black">
         <StackLayout>
-            
+            <ScrollView>
+                <ListView BackgroundColor="White">
+                    <ListView.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Renting Party Services</x:String>
+                            <x:String>Car Detailing</x:String>
+                            <x:String>Car Wash</x:String>
+                            <x:String>House Watch</x:String>
+                            <x:String>Plant Care</x:String>
+                            <x:String>Rent a Dad</x:String>
+                            <x:String>Winter Services</x:String>
+                            <x:String>Graduation Events</x:String>
+                            <x:String>Junk Removal</x:String>
+                        </x:Array>
+                    </ListView.ItemsSource>
+                </ListView>
+            </ScrollView>
+            <Button Text="Select Service" Clicked="Calendar_Clicked" HorizontalOptions="End" VerticalOptions="End" BackgroundColor="Black" TextColor="Gray"/>
         </StackLayout>
     </ContentPage>
 

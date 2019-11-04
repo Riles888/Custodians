@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="Property.MainPage">
 
-    <StackLayout Padding="0,0,0,10" BackgroundColor="Black">
+    <StackLayout Padding="0,0,0,5" BackgroundColor="Black">
         <!--<BoxView Color="White" WidthRequest="50" HeightRequest="50"
                  RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,
                              Property=Width,
